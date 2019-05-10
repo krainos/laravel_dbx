@@ -10,6 +10,12 @@ class IndexController extends Controller
     public function home(){
         return view('index.layouts.index');
     }
+    /**
+     * @return string 帮助
+     */
+    public function help(){
+        return '帮助';
+    }
 
     /**
      * @return string //联系我们
@@ -17,12 +23,7 @@ class IndexController extends Controller
     public function content(){
         return '联系我们';
     }
-    /**
-     * @return string 帮助
-     */
-    public function help(){
-        return '帮助';
-    }
+
 
 
 }

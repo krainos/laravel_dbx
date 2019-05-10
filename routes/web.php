@@ -17,5 +17,5 @@
 
 
 Route::get('/', 'IndexController@home');
-Route::get('/help','IndexControler@help');
+Route::get('/help','IndexController@help');
 Route::get('/content','IndexController@content');
