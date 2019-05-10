@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('index.layouts.index');
+//});
+
+
+Route::get('/', 'IndexController@home');
+Route::get('/help','IndexControler@help');
+Route::get('/content','IndexController@content');
